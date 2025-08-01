@@ -1,0 +1,6 @@
+services:
+  backend:
+    ports:
+      - "5000:3000"
+    environment:
+      - FUNCTION_URL= https://rgagabon-function-app-ave4hdc2f6cehwfk.canadacentral-01.azurewebsites.net/api/HttpTrigger1?code=Sf4APO2lft4d83nLa2Xf-B8hmw9Pjv4B70xX60ishZ2jAzFu4RJE4A==
